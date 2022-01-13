@@ -1,0 +1,13 @@
+<style>
+    .danjus {
+            text-align: justify;
+            text-indent:20px;
+    }
+</style>
+<script>
+        $(".tn-atom").each(function(i) {
+                if ($(this).text().lenght > 20) {
+                        $(this).addClass("danjus");
+                }
+        });
+</script>
